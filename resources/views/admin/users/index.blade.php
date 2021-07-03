@@ -43,7 +43,7 @@
                         <td>
                         <img height="50px" src="{{$user->avatar}}" alt=""></td>
                         <td>{{$user->name}}</td>
-                        <td><a href="{{route('user.create', $user->id)}}">status</td>
+                        <td><a href="{{route('user.create', $user->id)}}"> Novi status</td>
 
                         <td>{{$user->created_at->diffForHumans()}}</td>
                         <td>{{$user->updated_at->diffForHumans()}}</td>
